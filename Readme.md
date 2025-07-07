@@ -95,23 +95,21 @@ Example Code:
 In the example above, dict is the existing dictionary. When condition evaluates to True, key will have the value val_1 , otherwise val_2.
 
 
+Make a copy of a list. For that you can use the slice syntax:
+
+Example Code:
+```
+    my_list[:]
+```
+Where my_list is the list you want to copy.
 
 
+Python provides a concise way to write if/else conditionals by using the ternary syntax:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Example Code:
+```
+    val_1 if condition else val_2
+```
+The expression above evaluates to val_1 if condition is true, otherwise to val_2
 
 
